@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="cat1.jpg" alt="Mans Logo">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Sākums</a></li>
+                    <li><a href="#custom-section">Nejaušu ciparu</a></li>
+                    <li><a href="#cat-fact">Kaķu Fakti</a></li>
+                    <li><a href="#footer">Kontakti</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        
+        <section id="hero">
+            <h1>Laipni lūgti!</h1>
+            <p>Šī ir mana mājaslapa par nejaušu ciparu un kaķu faktiem.</p>
+        </section>
+    
+        
+        <section id="custom-section">
+            <h2>Ģenerēt nejaušu ciparu 🎲</h2>
+            <p>Šeit parādīsies cipars.</p>
+            <button onclick="generateRandomNumber()">Ģenerēt</button>
+            <p id="randomNumber"></p>
+        </section>
+    
+        
+        <section id="cat-fact">
+            <h2>Kaķu Fakti 🐈</h2>
+            <button onclick="fetchCatFact()">Parādīt kaķu faktu</button>
+            <p id="fact"></p>
+        </section>
+    
+        
+        <footer id="footer">
+            <p>&copy;G.Zlotņikovs</p>
+        </footer>
+        <script src="script.js"></script>
+    
+    
+        
+    </body>
+</html>
